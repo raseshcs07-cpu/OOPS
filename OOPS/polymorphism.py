@@ -1,4 +1,4 @@
-# many forms 
+# many forms , overrinding , overloading .
 
 class animal:
 
@@ -6,6 +6,7 @@ class animal:
         print("\nAnimals can not speak")
 
 class humans:
+
     def speak(self):
         print("Humans can speak")
 
