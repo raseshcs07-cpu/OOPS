@@ -1,4 +1,5 @@
 def my_decorator(func):
+
     def wrapper():
         print("Something is happening BEFORE the function is called.")
         func()
